@@ -7,8 +7,14 @@ This repositories contains cross-compiled libraries that are necessary to execut
   ```
   wget https://github.com/<user>/<repo>/releases/download/v1.0/release-v1.0.tar.gz
   ```
-- Extract the files and copy them to the /usr/lib/ folder
+- Extract the files, copy the libraries to the */usr/lib/* and the *FFmpeg* binaries to the */usr/bin* folder
+- Verify that FFmpeg is working
+  ```
+  ffmpeg
+  ```
 - Install the [*speech_recognition*](https://github.com/hailo-ai/Hailo-Application-Code-Examples/tree/main/runtime/hailo-8/python/speech_recognition) application as per instructions.
+- If you do not see the *app/hef* folder, please change the interpreter in *app/download_resources.sh* and run the script to download the resources again.
+- Run the app as per instructions.
 
 ## Licensing of Included Libraries
 
