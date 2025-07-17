@@ -14,7 +14,7 @@ This repositories contains cross-compiled libraries that are necessary to execut
   ```
 - Install the [*speech_recognition*](https://github.com/hailo-ai/Hailo-Application-Code-Examples/tree/main/runtime/hailo-8/python/speech_recognition) application as per instructions.
 - If you do not see the *app/hef* folder, please change the interpreter in *app/download_resources.sh* and run the script to download the resources again.
-- Run the app as per instructions.
+- Run the app as per instructions. 
   **Note**: initialization on the Astrial may take tens of seconds, due to the Python libraries being imported. 
 
 ## Licensing of Included Libraries
