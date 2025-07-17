@@ -3,9 +3,9 @@
 This repositories contains cross-compiled libraries that are necessary to execute the [*speech_recognition*](https://github.com/hailo-ai/Hailo-Application-Code-Examples/tree/main/runtime/hailo-8/python/speech_recognition) application on the System Electronics Astrial board.
 
 ## Instructions
-- Download the package cross-compiled for your OS version from the Release section:
+- Download the package cross-compiled for your OS version from the Releases section, for example:
   ```
-  wget https://github.com/topper-ai/astrial_whisper/releases/download/<version>/<filename>.zip
+  curl -LO https://github.com/topper-ai/astrial_whisper/releases/download/astrial-v1.1.4/astrial-v1.1.4.zip
   ```
 - Extract the files, copy the libraries to the */usr/lib/* and the *FFmpeg* binaries to the */usr/bin* folder
 - Verify that FFmpeg is working
