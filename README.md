@@ -5,7 +5,7 @@ This repositories contains cross-compiled libraries that are necessary to execut
 ## Instructions
 - Download the package cross-compiled for your OS version from the Release section:
   ```
-  wget https://github.com/<user>/<repo>/releases/download/v1.0/release-v1.0.tar.gz
+  wget https://github.com/topper-ai/astrial_whisper/releases/download/<version>/<filename>.zip
   ```
 - Extract the files, copy the libraries to the */usr/lib/* and the *FFmpeg* binaries to the */usr/bin* folder
 - Verify that FFmpeg is working
